@@ -12,7 +12,7 @@
     display: none;
 }
 
-/* Menu */
+/* Menu |||||||||||||*/
 .menu__container{
     position: fixed;
     bottom: 0%;
@@ -23,6 +23,7 @@
 
 .menu__lista{
     display: flex;
+    justify-content: space-around;
 }
 
 .menu__lista:nth-child(2),
