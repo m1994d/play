@@ -12,12 +12,41 @@
     display: none;
 }
 
+.menu__container{
+    position: fixed;
+    bottom: 0%;
+    height: 75px;
+    width: 100%;
+    
+}
+
+/* seccion superior*/
+.superior__seccion__container{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+/*rodapie*/
+.rodapie__container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: scroll;
+    gap: 15px;
+
+}
+
 /* Con esta linea de codigo se puede ocultar algo con especificacion, en este caso estamos ocultando la barra de busqueda para dispositivos que tengan menos de 834px */
 
 @media (min-width: 834px){
 
     .cabecera__buscar__item{
         display: block;
+    }
+
+    .rodapie__container{
+        justify-content: space-between;
     }
 
 }
