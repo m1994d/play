@@ -65,7 +65,23 @@
 
 /* Con esta linea de codigo se puede ocultar algo con especificacion, en este caso estamos ocultando la barra de busqueda para dispositivos que tengan menos de 834px */
 
-@media (min-width: 834px){
+/* MENU LATERAL PARA PANTALLAS DE TABLETS */
+
+@media (min-width: 834px) {
+
+    .menu__container {
+        left: 0;
+        height: auto;
+        width: 74px;
+        top: 80px;
+    }
+    
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
+    }    
 
     .cabecera__buscar__item{
         display: block;
