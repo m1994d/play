@@ -108,8 +108,11 @@
 
     .menu__lista{
         height: auto;
-        padding: 20px, 17px, 20 px, 15px;
+        padding: 20px 17px 20px 15px;
     }
 
+    .menu__itens{
+        flex-direction: row;
+    }
 
 }
