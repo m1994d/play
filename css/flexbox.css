@@ -53,6 +53,21 @@
     white-space: nowrap;
 }
 
+/* Secccion de videos */
+
+.videos__item{
+    height: 303px;
+    width: 280px;
+    flex-grow: 1;
+}
+
+.videos__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
 /*rodapie*/
 .rodapie__container{
     display: flex;
@@ -60,7 +75,6 @@
     flex-wrap: wrap;
     overflow: scroll;
     gap: 15px;
-
 }
 
 /* Con esta linea de codigo se puede ocultar algo con especificacion, en este caso estamos ocultando la barra de busqueda para dispositivos que tengan menos de 834px */
@@ -134,7 +148,7 @@
         order: 1;
     }
 
-    
+
 
 
 }
